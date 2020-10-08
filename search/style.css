@@ -1,0 +1,156 @@
+    /*header*/
+    .link1,.link2{
+        color:#3333ff;
+        text-decoration: none;
+        padding: 8px;
+        font-size: 16px;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-family: sans-serif;
+    }
+    .link1{
+        margin-right:160px;
+    }
+    ul {
+        list-style-type: none;
+        margin-top: 2px;
+      }
+    li{
+        float: right;
+    }
+    .hline{
+        border-bottom: 1px solid #ebebeb;
+    }
+    .upper{
+        margin:0;
+        background-color: #f5f5f0;
+    }
+
+    body{
+        margin:0;
+    }
+    /*search box*/
+    .search{
+        height: 35px;
+        width: 550px;
+        margin-left: 30%;
+        padding-left: 20px;
+        font-size: 20px;
+        border: 0.5px solid grey;
+        border-radius: 25px;
+        outline:none;
+    }
+    .adinput1,.adinput2,.adinput3,.adinput4{
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+        width:400px;
+        padding: 1px 8px;
+    }
+    .adinput1{
+        margin:2px 0 10px 80px;
+    }
+    .adinput2{
+        margin:2px 0 10px 21px;
+    }
+    .adinput3{
+        margin:2px 0 10px 57px;
+    }
+    .adinput4{
+        margin:2px 0 10px 50px;
+    }
+    /*advanced search*/
+    .adsearch{
+        font-family: sans-serif;
+        color: #d93025;
+        font-size: 20px;
+        margin: 25px 35px;
+    }
+    .find{
+        font-family: sans-serif;
+        margin: 50px 0 5px 30px;
+    }
+    .form{
+        font-family: sans-serif;
+        color:#3d3d29;
+        font-size: 13px;
+        width:600px;
+        margin:30px 0 0 0; 
+        position: absolute;
+    }
+    .flex-container{
+        display:flex;
+    }
+    .disc{
+        position: absolute;
+        margin-left: 500px;
+    }
+    .detailed1,.detailed2,.detailed3,.detailed4{
+        font-family: sans-serif;
+        color:#3d3d29;
+        font-size: 13px;
+        margin:35px 0 0 500px;
+        position:absolute;
+    }
+    .detailed2{
+        margin-top:80px;
+    }
+    .detailed3{
+        margin-top:120px;
+    }
+    .detailed4{
+        margin-top:165px;
+    }
+    /*logos*/
+    .google_img{
+        width: 300px;
+        height: 115px;
+        margin: 10% 0 2% 39%;        
+    }
+    .gsmall{
+        height:35px;
+        width:95px;
+        position: relative;
+        margin-top: 10px;
+        left: 16px;
+    }
+    /*buttons*/
+    .btn1,.btn2,.btn3,.adsubmit{
+        height:40px;
+        width:130px;
+        margin: 2% 0 0 40%;
+        border: 0px;
+        background-color:#f2f2f2;
+    
+    }
+    .btn2{
+        margin-left: 2%;
+    }
+    .btn3{
+        margin: 2% 0 0 45%;
+    }
+    .adsubmit{
+        margin-left: 77%;
+        padding-top: 0px;
+    }
+    /*responsive*/
+    @media (max-width: 1092px){
+        .google_img{
+            margin: 10% 0 2% 35%;
+        }
+        .search{
+            margin-left:23%;
+        }
+        .btn1{
+            margin-left:36%
+        }
+    }
+    /*advanced responsive*/
+    @media (max-width: 1092px){
+        .part2{
+            display:none;
+        }
+    }
